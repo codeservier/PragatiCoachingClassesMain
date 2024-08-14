@@ -21,6 +21,7 @@ import AdminPanel from "../../Admin/Admin";
 import CartPage from "../CartPage";
 import Checkout from "./Checkout";
 import NewContact from "../NewContact";
+import FaqPage from "../FaqPage"; 
 
 const AppRoutes = () => {
   return (
@@ -44,6 +45,7 @@ const AppRoutes = () => {
           <Route path="/cart" element={<CartPage />} />
           <Route path="/checkout" element={<Checkout />} />
           <Route path="*" element={<PageNotFound />} />
+          <Route path="/faq" element={<FaqPage />} /> 
           <Route path="/admin" element={<AdminPanel />} />
         </Routes>
       </Layout>

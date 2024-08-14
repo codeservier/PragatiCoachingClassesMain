@@ -12,7 +12,7 @@ const DescriptiionTab = () => {
   return (
     <div className="mt-8">
       <div className="border-b">
-        <nav className="flex space-x-4 overflow-x-auto whitespace-nowrap">
+        <nav className="flex space-x-4 overflow-x-auto whitespace-nowrap pl-8">
           <button
             className={`py-2 px-4 text-sm sm:text-lg font-medium ${
               activeTab === "learn"
@@ -55,7 +55,7 @@ const DescriptiionTab = () => {
           </button>
         </nav>
       </div>
-      <div className="mt-4">
+      <div className="mt-4 pl-10">
         {activeTab === "learn" && (
           <div>
             <h2 className="text-2xl font-bold mb-2">What you'll learn</h2>

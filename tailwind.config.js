@@ -11,6 +11,9 @@ export default {
       fontFamily: {
         sans: ["'Open Sans'"],
       },
+      fontWeight: {
+        'extra-heavy': '1000', // Custom font weight
+      },
     },
   },
   plugins: [],

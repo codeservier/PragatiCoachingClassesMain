@@ -10,7 +10,7 @@ const CourseDetailPage = () => {
 
   return (
     <div className="max-w-screen-xl mx-auto px-2">
-      <div className="container  mx-auto p-4 my-4  ">
+      <div className="container  mx-auto p-8 my-4  ">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 my-2">
           <div className=" ">
             <img

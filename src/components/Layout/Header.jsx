@@ -32,7 +32,7 @@ const Header = () => {
           <Link to="/mylearning" className="hover:text-gray-300">Courses</Link>
           <Link to="/about" className="hover:text-gray-300">About Us</Link>
           <Link to="/new-contact" className="hover:text-gray-300">Contact Us</Link>
-          <Link to="/new-contact" className="hover:text-gray-300">FAQ</Link>
+          <Link to="/faq" className="hover:text-gray-300">FAQ</Link>
           {/* Uncomment if needed */}
           {/* <Link to="/wishlist" className="hover:text-gray-300">
             <FaRegHeart className="w-6 h-6 cursor-pointer hover:text-gray-300" />
@@ -64,8 +64,9 @@ const Header = () => {
         <nav className="font-bold bg-white shadow-md md:hidden">
           <Link  to="/" className="block px-4 py-2 hover:bg-gray-200">Home</Link>
           <Link to="/mylearning" className="block px-4 py-2 hover:bg-gray-200">My Learning</Link>
-          <Link to="/about" className="block px-4 py-2 hover:bg-gray-200">About</Link>
-          <Link  to="/new-contact" className="block px-4 py-2 hover:bg-gray-200">Contact</Link>
+          <Link to="/about" className="block px-4 py-2 hover:bg-gray-200">About Us</Link>
+          <Link  to="/new-contact" className="block px-4 py-2 hover:bg-gray-200">Contact Us</Link>
+          <Link to="/faq" className="block px-4 py-2 hover:text-gray-300">FAQ</Link>
           <Link to="/login" className="block px-4 py-2 hover:bg-gray-200">Login</Link>
           <Link to="/register"  className="block px-4 py-2 hover:bg-gray-200">Registration</Link>
           {/* Uncomment if needed */}

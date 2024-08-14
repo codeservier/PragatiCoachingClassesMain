@@ -9,7 +9,7 @@ const Card = ({ title, description, image, onClick, button }) => {
       <img
         src={image}
         alt={title}
-        className="w-full h-auto object-cover" // Use h-auto to maintain aspect ratio
+        className="w-full h-50 object-content" // Use h-auto to maintain aspect ratio
       />
       <div className="p-4">
         <h3 className="text-lg font-medium text-[#800020]">{title}</h3>

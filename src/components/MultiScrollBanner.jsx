@@ -3,7 +3,7 @@ import Slider from "react-slick";
 import image1 from "../assets/c1.jpg";
 import image2 from "../assets/c2.jpg";
 import image3 from "../assets/c3.jpg";
-import image4 from "../assets/c4.jpg";
+import image4 from "../assets/courses/Course.png";
 import image5 from "../assets/c5.jpg";
 import image6 from "../assets/c6.jpg";
 import Card from "./card/Card";
